@@ -20,6 +20,7 @@
                     <goal>npm</goal>
                     <goal>gulp</goal>
                     <goal>grunt</goal>
+                    <goal>brunch</goal>
                     <goal>bower</goal>
                     <goal>jspm</goal>
                     <goal>ember</goal>

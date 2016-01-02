@@ -36,6 +36,10 @@ public final class FrontendPluginFactory {
         return new DefaultGruntRunner(getExecutorConfig());
     }
 
+    public BrunchRunner getBrunchRunner(){
+        return new DefaultBrunchRunner(getExecutorConfig());
+    }
+
     public EmberRunner getEmberRunner() {
         return new DefaultEmberRunner(getExecutorConfig());
     }
